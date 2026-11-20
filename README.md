@@ -71,13 +71,22 @@ curl -X POST 'https://indike.org/pramana/api/sql' -H 'content-type: application/
 
 ## Open data
 
-The openly licensed part of the database (public-domain editions, CC0, CC BY and CC BY-SA texts, and Pramāṇa's own
-catalogue, dates and alignments) is being released as Parquet tables on Zenodo and Hugging Face; the links will
-appear here.
+The openly licensed part of the database (build of 2026-11-14) is released as Parquet tables:
+
+* **Zenodo:** https://doi.org/10.5281/zenodo.24408374 (DOI, permanent)
+* **Hugging Face:** https://huggingface.co/datasets/srajma/pramana (`datasets.load_dataset("srajma/pramana")`)
+
+It holds 81,541 documents with text (3,819,508 passages, 224 million words: public-domain editions and translations,
+CC0, CC BY and CC BY-SA texts, and Pramāṇa's own machine translations of those), the catalogue of 299,705 works,
+recensions, commentaries, translations and inscriptions, 1,204,472 alignment links and 373,472 dated and attributed
+claims with their sources. Pramāṇa's own data (catalogue, dates, attributions, alignments) is CC BY 4.0.
 
 Every passage carries the licence class of its text, and `catalogue.parquet` names each source and its licence
 statement. Texts that their sources allow only for non-commercial use, or show with permission, are not in the
 release. They can be read on the site.
+
+Data paper: Sri Mahalingam, *Pramāṇa: an open, linked database of Indian literature and primary sources* (2026),
+https://doi.org/10.5281/zenodo.24408376.
 
 ## Sources
 
@@ -88,7 +97,8 @@ https://indike.org/pramana/about#sources. Machine translations and OCR-derived t
 
 ## How to cite
 
-> Pramāṇa: an open database of Indian literature and primary sources. https://indike.org/pramana/, 2026.
+> Sri Mahalingam. 2026. *Pramāṇa: an open database of Indian literature and primary sources.*
+> https://indike.org/pramana/. Open data release: https://doi.org/10.5281/zenodo.24408374.
 
 Cite a passage by its path, e.g. https://indike.org/pramana/in.veda.samhita.rg.1.1.1. The API gives a ready
 citation for any passage (`/api/cite/<path>`).
