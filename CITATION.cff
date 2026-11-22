@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Pramāṇa: an open database of Indian literature and primary sources"
+message: "If you use Pramāṇa, please cite it as below, and cite passages by their path (https://indike.org/pramana/<path>)."
+type: dataset
+authors:
+  - family-names: "Mahalingam"
+    given-names: "Sri"
+    affiliation: "Independent researcher"
+url: "https://indike.org/pramana/"
+repository-code: "https://github.com/srajma/pramana-data"
+abstract: >-
+  An open database of the primary sources of the Indian subcontinent: a catalogue of 205,407 works, 51,241 with
+  their text (18.5 million passages, 575 million words in 93 languages), with recensions, commentaries and
+  translations aligned passage by passage, plus inscriptions, archaeological sites, coins and museum objects.
+keywords: [Sanskrit, Pali, Prakrit, Tamil, Indology, digital library, parallel corpus, epigraphy, digital humanities]
+license: CC-BY-4.0
+doi: "10.5281/zenodo.24408374"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24408374"
+    description: "Open data release (Zenodo)"
+  - type: doi
+    value: "10.5281/zenodo.24408375"
+    description: "Data paper (Zenodo)"
+  - type: url
+    value: "https://huggingface.co/datasets/srajma/pramana"
+    description: "Open data release (Hugging Face)"
+date-released: "2026-11-21"
