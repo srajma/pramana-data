@@ -76,7 +76,7 @@ The openly licensed part of the database (build of 2026-11-14) is released as Pa
 * **Zenodo:** https://doi.org/10.5281/zenodo.24408374 (DOI, permanent)
 * **Hugging Face:** https://huggingface.co/datasets/srajma/pramana (`datasets.load_dataset("srajma/pramana")`)
 
-It holds 81,541 documents with text (3,819,508 passages, 224 million words: public-domain editions and translations,
+It holds 64,983 documents with text (3,819,508 passages, 224 million words: public-domain editions and translations,
 CC0, CC BY and CC BY-SA texts, and Pramāṇa's own machine translations of those), the catalogue of 299,705 works,
 recensions, commentaries, translations and inscriptions, 1,204,472 alignment links and 373,472 dated and attributed
 claims with their sources. Pramāṇa's own data (catalogue, dates, attributions, alignments) is CC BY 4.0.
