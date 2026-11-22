@@ -86,7 +86,7 @@ statement. Texts that their sources allow only for non-commercial use, or show w
 release. They can be read on the site.
 
 Data paper: Sri Mahalingam, *Pramāṇa: an open, linked database of Indian literature and primary sources* (2026),
-https://doi.org/10.5281/zenodo.24408376.
+https://doi.org/10.5281/zenodo.24408375.
 
 ## Sources
 
